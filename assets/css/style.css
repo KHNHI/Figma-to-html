@@ -347,3 +347,58 @@ a {
 .popular .course_item .btn_book:hover {
   background: var(--primary-color);
 }
+/* feedback */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.feedback_item {
+  display: flex;
+}
+.feedback_item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.feedback_item .info .member_name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+.feedback_item .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.feedback_item .dots {
+  gap: 6px;
+  display: flex;
+  margin-top: 28px;
+}
+.feedback_item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+.feedback_item .dots .dot.active {
+  background-color: var(--primary-color);
+  cursor: default;
+}
+.feedback_item .content {
+  width: 66%;
+  margin-left: auto;
+}
+.feedback_item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54;
+}
