@@ -347,14 +347,22 @@ a {
 .popular .course_item .btn_book:hover {
   background: var(--primary-color);
 }
-/* feedback */
+/* ================================feedback====================== */
 .feedback {
   margin-top: 135px;
   padding: 96px 0;
   background: #2e2100;
 }
-.feedback_item {
+.feedback_list {
   display: flex;
+  overflow: hidden;
+}
+.feedback_item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+  transition: all ease 0.5s;
 }
 .feedback_item .avatar {
   width: 72px;
