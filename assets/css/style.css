@@ -462,3 +462,98 @@ a {
 .features2 .content {
   width: 49%;
 }
+/* ============================================blog======================================= */
+.blog {
+  margin-top: 135px;
+  padding-top: 96px;
+  background: #fffcf4;
+}
+
+.blog .heading_lv2 {
+  text-align: center;
+  color: #130606;
+  font-family: var(--font-heading);
+  font-size: 3.8rem
+  font-weight: 700;
+  line-height: 1.27
+  letter-spacing: -0.76px;
+}
+.blog .intro {
+  width: 448px;
+  margin: 16px auto;
+  text-align: center;
+}
+.blog .intro p {
+  color: #696262;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+.blog .blog_list {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+}
+.blog .blog_item:hover {
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  
+}
+.blog .blog_item .date {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 20px;
+}
+.blog .blog_item .date1 {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  margin-left: 4px;
+}
+.blog .blog_item .decor {
+  margin-left: 20px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin: 12px 0px 12px 20px;
+}
+.blog .blog_item a .how_to  {
+  color: #171100;
+font-size: 1.6rem;
+font-weight: 600;
+line-height: 1.76;
+margin: 0 20px;
+}
+.blog .btn {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86;
+  font-weight: 600;
+  line-height: 1.86;
+  width: 118px;
+  height: 50px;
+  margin-top: 12px;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 28px;
+  cursor: pointer;
+}
+.blog .btn:hover{
+background-color: var(--primary-color);
+}
+
+.blog .blog_item .thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+.blog .blog_item{
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+background: #FFF;
+}
